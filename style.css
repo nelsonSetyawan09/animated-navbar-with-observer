@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    box-shadow: 0 3px 13px rgba(0, 0, 0, .2);
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: 60px;
+}
+
+nav h1, nav ul{
+    font-size: 1.5rem;
+    flex:1;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    background: linear-gradient(to right top,#2980b9, #2c3e50);
+}
+
+.project{
+    background: linear-gradient(to right top,#fd746c, #ff9068);
+}
+
+.contact{
+    background: linear-gradient(to right top,#B24592, #F15F79);
+}
+
+
+nav ul .bubble{
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right top,#2980b9, #2c3e50);
+    transition: all .2s ease;
+    transform: scale(1.8);
+}

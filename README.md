@@ -1,0 +1,1 @@
+CREATE ANIMATION NAVBAR WITH IntersectionObserver
